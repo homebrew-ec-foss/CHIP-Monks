@@ -20,3 +20,11 @@
 
 - [ ] going through [chipverify](https://www.chipverify.com/tutorials/verilog)
 - [ ] practising on [hdlbits](https://hdlbits.01xz.net/wiki/Main_Page)
+
+# 9th July 
+
+- [ ] going through [chipverify](https://www.chipverify.com/tutorials/verilog)
+> today target to complete atleast 3/4 of this ↑
+
+- [ ] practising on [hdlbits](https://hdlbits.01xz.net/wiki/Main_Page)
+
