@@ -1,3 +1,4 @@
 # Sadhana's Progress
 
-Week 1 : Basics of Verilog
+<ins> Week 1 </ins> 
+Basics of Verilog
