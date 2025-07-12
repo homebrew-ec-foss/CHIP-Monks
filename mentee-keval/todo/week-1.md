@@ -16,7 +16,31 @@
 
 > a verilog learning website if u bored with chipverify [HERE](http://www.asic-world.com/verilog/index.html)
 
-# 8th July
+# 8 - 11th July
 
-- [ ] going through [chipverify](https://www.chipverify.com/tutorials/verilog)
+- [x] going through [chipverify](https://www.chipverify.com/tutorials/verilog)
 - [ ] practising on [hdlbits](https://hdlbits.01xz.net/wiki/Main_Page)
+
+# Week 01 Checklist – Keval
+
+## Project chosen:
+Binary‑to‑7‑Segment Display 
+
+
+### Part A – Learning
+- [x] Read ChipVerify up to Section 5
+- [ ] Tried matching HDLBits exercises
+- [x] Consulted PDFs when needed
+
+### Part B – Build
+- [ ] Implement Easy block
+- [ ] Implement Medium block
+- [ ] Implement Hard block
+- [ ] Integrate blocks in `system.v`
+- [ ] Create `system_tb.v` with ≥2 test cases
+- [ ] Add waveform screenshot & block diagram to `README.md`
+- [ ] Commit & push with message `week-01: <project> @<name>`
+
+---
+
+

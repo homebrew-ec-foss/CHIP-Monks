@@ -1,3 +1,4 @@
 # Keval's Progress
 
-## [WEEK - 1](https://github.com/homebrew-ec-foss/CHIP-Monks/blob/main/mentee-keval/week-1.md)
+##├── todo/
+##│ └── week-01.md << here week 1 (6th to 12th July)
