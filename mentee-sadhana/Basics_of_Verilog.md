@@ -1,20 +1,22 @@
+# Basics of Verilog
 
 Verilog is a HDL (Hardware Description Language) used to describe electronic circuits using code.
 
-Verilog code ----- > Verilog Simulator (Icarus Verilog or Verilator) -------- > Software to be run on custom hardware runs on this simulation  
+``` mermaid
+graph LR;
+    A[Verilog code] --> B[Verilog Simulator such as Icarus Verilog or Verilator];
+    B --> C[Software that executes on custom hardware runs on this simulation];
+```
 
-PIL (Programming Language Interface) or DPI (Direct Programming Interface) allow Verilog simulations to interact with code written in other languages like C,C++, etc. 
+<ins> Digital and Analog circuits </ins>
 
-
-Digital and Analog circuits
-
-All circuits are analog by nature. Digital circuits are a level of abstraction of analog circuits where all signals are taken  as either 0 or 1 with reference to a clock. In digital circuits, the input and the output are both logic levels that are usually referenced with a clock. 
+Digital circuits are a level of abstraction of analog circuits where all signals are taken  as either 0 or 1 with reference to a clock. In digital circuits, the input and the output are both logic levels. 
 
 Synchronous logic : clock affects the input.
 Asynchronous logic : clock does not affect input.
 
-What is clock ?
-In digital circuits, clock is what drives each step in the circuit. Ultimately, the clock can be visualized as a square wave. Its value can be either 1 or 0 at a time instant.
+*What is clock ?*
+*In digital circuits, clock is what drives each step in the circuit. Ultimately, the clock can be visualized as a square wave. Its value can be either 1 or 0 at an instant of time.*
 
 HDLs like Verilog or VHDL (VHSIC Description language) at a fundamental level describe logical components like logic gates and flip flops in a circuit. 
 
@@ -23,18 +25,21 @@ Basic components of Verilog are :
     • Wire : Express a physical connection between two components. 
     • Register : Holds data 
 
-Combination circuits are a type of digital circuit where the output depends only on the input at that instant. In contrast, a sequential circuit is a digital circuit where the previous state of the machine becomes relevant. Hence, The need to remember values or state. This is where registers are required.
+*Combination circuits are a type of digital circuit where the output depends only on the input at that instant. In contrast, a sequential circuit is a digital circuit where the previous state of the machine becomes relevant. Hence, The need to remember values or state. This is where registers are required.*
 
+```mermaid
+graph LR;
+    A[Gates] --> B[Latches];
+    B --> C[Flip-Flops];
+    C --> D[Registers];
+```
 
-Gates ------- > Latches ------------ > Flip-Flops ------------ > Registers
-
-
-Language semantics of Verilog 
+<ins>Language semantics of Verilog</ins> 
 
     • Procedural Blocks: Describe the behavior of modules. They can be of two types :-
         ◦ Initial: Executes only once at the beginning of the simulation. 
         ◦ Always: Executes repeatedly on being triggered by events.  
-      Since HDLs are inherently concurrent, its concurrency is controlled by fork and join.
+      HDLs are inherently concurrent. Its concurancy is controlled by fork and join.
 
     • Module: The fundamental building block of a Verilog design.
       
@@ -65,7 +70,8 @@ Language semantics of Verilog
       
     • defparam: Method to override module parameters after initialization.
 
-Conditional Statements - Control flow based on conditions.
+
+**Conditional Statements - Control flow based on conditions.**
 
     • case: Exactly matching values.
     • casex: Matches with 'x' ( specified number) values only and does not check the rest of the values.
@@ -73,10 +79,10 @@ Conditional Statements - Control flow based on conditions.
     • Full Case Statement: All possible input combinations are covered.
     • Parallel Case: Mutually exclusive case items. They are very efficient in hardware functioning.
       
-Syntax
+<ins> Syntaxes </ins>
 
     • Continuous Assignment : Assigns a value to a wire constantly.
-                                          Syntax: assign <wire> = <expression>;
+                              Syntax: assign <wire> = <expression>;
                                           
     • Procedural Assignments : Assigns values to registers.
         ◦ Blocking Assignment (=):  Statements execute sequentially.
