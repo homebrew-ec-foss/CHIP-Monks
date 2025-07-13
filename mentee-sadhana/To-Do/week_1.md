@@ -1,12 +1,13 @@
 # Week 1 Checklist – Sadhana
 
-## Project chosen:
-Calculator / LED‑Blinker / Bin‑to‑7seg / Traffic‑Light
-
 ### Part A – Learning
-- [ ] Read ChipVerify up to Section 6
+- [x] Read ChipVerify up to Section 6
 - [ ] Tried matching HDLBits exercises
 - [ ] Consulted PDFs when needed
+
+
+## Project chosen:
+Calculator / LED‑Blinker / Bin‑to‑7seg / Traffic‑Light
 
 ### Part B – Build
 - [ ] Implement Easy block
