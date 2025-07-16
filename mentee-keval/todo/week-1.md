@@ -33,13 +33,13 @@ Binary‑to‑7‑Segment Display 
 - [x] Consulted PDFs when needed
 
 ### Part B – Build
-- [ ] Implement Easy block
-- [ ] Implement Medium block
+- [x] Implement Easy block
+- [x] Implement Medium block
 - [ ] Implement Hard block
-- [ ] Integrate blocks in `system.v`
-- [ ] Create `system_tb.v` with ≥2 test cases
+- [x] Integrate blocks in `system.v`
+- [x] Create `system_tb.v` with ≥2 test cases
 - [ ] Add waveform screenshot & block diagram to `README.md`
-- [ ] Commit & push with message `week-01: <project> @<name>`
+- [x] Commit & push with message `week-01: <project> @<name>`
 
 ---
 
