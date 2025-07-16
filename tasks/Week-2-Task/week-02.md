@@ -10,7 +10,7 @@
 | 1    | Read Cowgod’s CHIP-8 Technical Reference        | [Cowgod's CHIP-8 Technical Reference](http://devernay.free.fr/hacks/chip8/C8TECH10.HTM)|
 | 2    | Skim the opcode layout                            | `docs/Chip8-Docs/CHIP8-Opcode-Table.pdf`   |
 | 3    | Understand the meaning of `Vx`, `Vy`, `I`, and PC | see Cowgod Section 2                 |
-| 4    | Understand fetch-decode-execute model             | `docs/Verilog-Docs/FSM-Explanation.md     |
+| 4    | Understand fetch-decode-execute model             | `docs/Verilog-Docs/FSM-Explanation.md`     |
 
 ---
 
@@ -57,6 +57,9 @@ mentee-<yourname>/
 
 ---
 
+## Personal Checklist *(copy into your own file and tick)*
+
+```markdown
 # Week 02 Checklist – <your name>
 
 ## Part A – Read and Understand
@@ -75,6 +78,7 @@ mentee-<yourname>/
 - [ ] Added a `README.md` with good explanation (upto you how you want it)
 
 ---
+```
 
 ## Some Workflow Tips
 

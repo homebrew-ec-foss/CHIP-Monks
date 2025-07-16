@@ -78,7 +78,7 @@ In your `chip8_cpu.v`, you’ll use states like:
 - `DRAW` – update display statefully
     
 
-Declare these as `parameter`s, and use a `reg [4:0] state;` or whatever bitwidth fits.
+Declare these as `parameter`, and use a `reg [4:0] state;` or whatever bitwidth fits.
 
 ---
 
