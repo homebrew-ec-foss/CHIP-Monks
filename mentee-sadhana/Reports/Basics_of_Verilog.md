@@ -90,5 +90,10 @@ graph LR;
 
     • Time Scale : Defining time unit and precision for simulation.
         ◦ $time: System function returning current simulation time.
+
+**What is RTL ?**
+
+RTL-Register Transfer Level.
+It is a level of abstraction that describes how a circuit transfers data.
       
 
