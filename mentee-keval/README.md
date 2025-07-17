@@ -7,7 +7,7 @@
 │ └── week-01.md << here week 1 (6th to 12th July)
 ~~~
 
-## WEEK-02
+## [WEEK-02](https://github.com/kevalpattani/CHIP-Monks/blob/main/mentee-keval/todo/week-2.md)
 
 ~~~
 ├── todo/ 
