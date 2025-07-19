@@ -1,22 +1,48 @@
 # Designing the CHIP-8 CPU Core in Verilog
 
-This tutorial will help you implement your own CHIP-8 CPU module using FSMs and `case` statements. The goal is to simulate a working CPU that can fetch, decode, and execute real CHIP-8 programs.
+This tutorial will help you implement your own CHIP-8 CPU module using FSMs and `case` statements. The goal is to simulate a working CPU that can fetch, decode, and execute real CHIP-8 programs — all in Verilog.
+
+---
 
 ## Overview
 
 Your CPU will be a single Verilog module that:
 
-- Fetches 2-byte opcodes from memory
-- Decodes opcodes using a `case` statement
+- Fetches 2-byte (16-bit) opcodes from memory
+    
+- Decodes the opcode using a `case` statement
+    
 - Executes instructions using internal registers
+    
 - Interfaces with memory, display, and keypad
+    
 - Follows a Finite State Machine (FSM) structure
+    
+
+---
+
+## What is Fetch-Decode-Execute?
+
+The CPU runs an endless loop broken into three core phases:
+
+1. **Fetch**  
+    Read 2 bytes from memory at the current PC (Program Counter).  
+    Since CHIP-8 opcodes are 2 bytes and memory is byte-addressed, you need two cycles.
+    
+2. **Decode**  
+    Break down the 16-bit opcode into fields — upper nibble, X, Y, N, NN, NNN — and figure out what instruction it represents.
+    
+3. **Execute**  
+    Perform the action: modify registers, jump, store to memory, etc. Then increment or change the PC based on the instruction.
+    
+
+This loop continues for every instruction.
 
 ---
 
 ## Inputs and Outputs
 
-Here’s a simplified I/O spec for your `chip8_cpu`:
+Here’s a simplified I/O interface for your CPU module:
 
 ```verilog
 module chip8_cpu (
@@ -32,49 +58,50 @@ module chip8_cpu (
 );
 ```
 
->[!NOTE]
-> This I/O spec will be extended as we implement more instructions :D
+> This interface will evolve as we implement more instructions and peripherals.
 
 ---
-
 ## Internal Registers
 
-Inside the module, you’ll need:
+You’ll need the following inside your `chip8_cpu` module:
 
-- `reg [11:0] pc;` — program counter
-    
-- `reg [11:0] I;` — address register
-    
-- `reg [7:0] V[0:15];` — general-purpose registers
-    
-- `reg [15:0] opcode;` — current instruction
-    
-- `reg [3:0] state;` — current FSM state
-    
-- Optional: timers, stack, draw logic, keywait flag, etc.
+```reg [11:0] pc;              // Program counter (starts at 0x200)
+reg [11:0] I;               // Address register
+reg [7:0] V[0:15];          // General-purpose registers V0–VF
+reg [15:0] opcode;          // Current instruction
+reg [3:0] state;            // FSM state
+```
 
 ---
 
-## CPU Flow (FSM + Case)
+## FSM Structure (Fetch-Decode-Execute)
 
 Your CPU should follow this loop:
 
-1. **FETCH1**: request first byte of opcode from memory
-    
-2. **FETCH2**: request second byte, assemble full opcode
-    
-3. **EXECUTE**: decode and perform the instruction
-    
-4. **Go back to FETCH1**
+```text
+[FETCH1] → [FETCH2] → [EXECUTE] → [FETCH1] ...
+```
 
-Below is a starter skeleton that you can utilize in your project!
+>We break the fetch phase into two steps, since memory is byte-wide but instructions are 2 bytes.
+
+---
+
+## Skeleton Code
+
+Below is a simple FSM-based CPU skeleton with support for `6XNN`, `7XNN`, and `1NNN`:
 
 ```verilog
+localparam FETCH1 = 0, FETCH2 = 1, EXECUTE = 2;
+
 always @(posedge clk or posedge reset) begin
   if (reset) begin
-    pc <= 12'h200;
+    pc <= 12'h200; // Programs start at 0x200
     state <= FETCH1;
-    // initialize everything
+    opcode <= 0;
+    I <= 0;
+    mem_read <= 0;
+    mem_write <= 0;
+    // Optionally clear V[x] here
   end else begin
     mem_read <= 0;
     mem_write <= 0;
@@ -95,28 +122,27 @@ always @(posedge clk or posedge reset) begin
 
       EXECUTE: begin
         opcode[7:0] <= mem_data_in;
-        // now decode and run opcode
+
         case (opcode[15:12])
-          4'h6: begin // 6XNN: set Vx = NN (add comments like this for clarity pls)
+          4'h6: begin // 6XNN: Vx = NN
             V[opcode[11:8]] <= opcode[7:0];
             pc <= pc + 2;
             state <= FETCH1;
           end
 
-          4'h7: begin // 7XNN: Vx += NN (add comments like this for clarity pls)
+          4'h7: begin // 7XNN: Vx += NN
             V[opcode[11:8]] <= V[opcode[11:8]] + opcode[7:0];
             pc <= pc + 2;
             state <= FETCH1;
           end
 
-          4'h1: begin // 1NNN: jump (add comments like this for clarity pls)
+          4'h1: begin // 1NNN: jump to NNN
             pc <= opcode[11:0];
             state <= FETCH1;
           end
 
-          // ... more stuff as we expand the ISA!
-
           default: begin
+            // Unknown instruction — just skip
             pc <= pc + 2;
             state <= FETCH1;
           end
@@ -126,29 +152,26 @@ always @(posedge clk or posedge reset) begin
   end
 end
 ```
----
-
-## Testing and Debugging
-
-- Write a small testbench that loads a few known opcodes
-    
-- Use `$display` to trace PC and state transitions
-    
-- Dump waveforms using GTKWave if needed
-    
-- Check `V[x]` registers after each step
-    
 
 ---
 
+## Testing & Debugging
+
+- Start with a small testbench that feeds known opcodes into the CPU.
+    
+- Use `$display()` to trace PC, state, and register values.
+    
+- Dump waveforms (`.vcd`) and use GTKWave to visually inspect state transitions.
+    
+- Check the values of `V[x]` registers after each instruction.
+
+---
 ## Tips
 
-- Always reset everything properly
+- Always reset internal state properly (`pc`, `I`, `V[x]`, timers).
     
-- Use a `default` in each `case`
+- Add a `default` case to every `case` statement.
     
-- Keep state transitions explicit
+- Add only a few instructions at first — build confidence.
     
-- Delay complex instructions (e.g., draw, BCD, wait) to later
-    
-- Tackle one opcode at a time — don’t rush
+- Delay hard instructions like `DXYN` (draw), `FX33` (BCD), `FX0A` (wait for key).
