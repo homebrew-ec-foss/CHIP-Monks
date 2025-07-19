@@ -1,9 +1,9 @@
-//Easy 
+//Mux
 module mux2 ( input wire [7:0] A, input wire [7:0] B, input wire sel, output wire [7:0] y);
     assign y = sel ? b : a; // if sel is high, y=B else y=A
 endmodule
 
-//Medium
+//Register
 module regfile2 ( input wire clk, input wire rst_n, input wire w, input wire reg_sel, input wire [7:0]  data_in, output wire [7:0] ra, output wire [7:0] rb );
 
     reg [7:0] reg0;
@@ -30,7 +30,7 @@ module regfile2 ( input wire clk, input wire rst_n, input wire w, input wire reg
 
 endmodule
 
-// Hard
+// ALU
 module alu3 ( input wire [7:0]  operand_a, input wire [7:0]  operand_b, input wire [1:0]  opcode, output reg [7:0]  result );
 
     //re-evaluate logic when input changes
