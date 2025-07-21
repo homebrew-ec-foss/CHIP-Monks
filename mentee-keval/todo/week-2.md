@@ -18,7 +18,7 @@
 ## 17th July
 - you can find that article I wrote [here](https://github.com/homebrew-ec-foss/CHIP-Monks/blob/main/mentee-keval/what%20is%20CHIP-8.pdf)
 
-```markdown
+
 # Week 02 Checklist – Keval
 
 ## Part A – Read and Understand
@@ -36,5 +36,3 @@
 - [ ] Created a testbench in `chip8/tb/` 
 - [ ] Added a `README.md` with good explanation (upto you how you want it)
 
----
-```
