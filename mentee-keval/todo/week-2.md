@@ -32,7 +32,7 @@
 - [x] Created `chip8_cpu.v` FSM scaffold
 - [x] Implemented `6XNN`, `7XNN`, and `1NNN`
 - [x] Implemented skip instructions (`3XNN`, `4XNN`)
-- [ ] Tested opcodes manually (waveform or display-based)
-- [ ] Created a testbench in `chip8/tb/` 
+- [x] Tested opcodes manually (waveform or display-based)
+- [x] Created a testbench in `chip8/tb/` 
 - [ ] Added a `README.md` with good explanation (upto you how you want it)
 
