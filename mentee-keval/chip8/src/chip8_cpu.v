@@ -51,7 +51,7 @@
                 one_hz <= 0;
                 sound_timer <= 0;
             end else begin
-                if (one_hz == 833333) begin
+                if (one_hz == 833333) begin // calculation of 1/60 th second using the clk signal (50000000/833333 = 60Hz)
                     one_hz <= 0;
                     if (delay_timer > 0)
                         delay_timer <= delay_timer - 1;
