@@ -6,9 +6,9 @@
 
 ## Final CPU Implementation
 
-- [ ] Completed all remaining opcodes
-- [ ] Verified correct PC and state updates for each opcode
-- [ ] Cleaned up `chip8_cpu.v` with comments and structure
-- [ ] Waveform-tested all CHIP-8 instructions
-- [ ] Finalized testbench with representative cases
-- [ ] Updated `README.md` with full opcode coverage + notes
+- [x] Completed all remaining opcodes
+- [x] Verified correct PC and state updates for each opcode
+- [x] Cleaned up `chip8_cpu.v` with comments and structure
+- [x] Waveform-tested all CHIP-8 instructions
+- [x] Finalized testbench with representative cases
+- [x] Updated `README.md` with full opcode coverage + notes
