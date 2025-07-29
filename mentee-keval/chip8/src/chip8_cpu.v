@@ -322,11 +322,13 @@
                             case(opcode[3:0])
                                 4'h0: begin
                                     pc <= pc + 2;
+                                    state <= FETCH1;
                                 end 
                                 
                                 4'hE: begin
                                     pc <= stack[pc_data - 1];
                                     pc_data <= pc_data - 1;
+                                    state <= FETCH1;
                                 end
                             endcase     
                         end
