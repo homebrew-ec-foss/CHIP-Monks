@@ -21,6 +21,41 @@ Design a module that supports the CHIP-8 64×32 monochrome display.
 - Support collision detection (i.e., when a pixel is unset during XOR draw, set VF to 1)
 - Provide a `chip8_display.v` module with a simple pixel-access interface
 
+```verilog
+module chip8_display (
+    input wire clk,
+    input wire reset,
+    input wire draw,            // draw one sprite row
+    input wire [5:0] x,
+    input wire [4:0] y,
+    input wire [3:0] row_index,
+    input wire [7:0] sprite_data,
+    input wire [2047:0] display_in,
+    output reg  [2047:0] display_out,
+    output reg collision
+);
+
+    // Internal registers go here :)
+    reg [2047:0] next_display;
+    reg collision_next;
+
+    always @(*) begin
+        // For each bit in sprite_data:
+        // 1. Compute screen coordinate with wrapping
+        // 2. XOR the bit with current pixel
+        // 3. If a pixel goes from 1 to 0, set collision flag
+    end
+
+    always @(posedge clk) begin
+        if (reset) begin
+            // Clear display and collision flag
+        end else if (draw) begin
+            // Commit new display state and collision flag
+        end
+    end
+endmodule
+```
+
 ## Part B – Memory Module
 
 Create a memory module that behaves like a unified RAM for both code and data.
