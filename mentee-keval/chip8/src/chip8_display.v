@@ -14,25 +14,21 @@ module chip8_display(
     );
     
      reg [2047:0] next_display;
-     reg collision_next;
-     integer x_cord,y_cord;
+     reg collide;
      integer i;
      integer index;
     
     always @(*) begin
         
-        collision_next = 0;
+        collide = 0;
         next_display = display_in;
         
         for (i = 0;i<8;i=i+1) begin
         if (sprite_data[7-i]) begin
-                x_cord = (x + i) % 64;
-                y_cord = (y + row_index) % 32;
-                index <= y_cord * 64 + x_cord;
-                
-    
+                index = ((y + row_index) % 32) * 64 + ((x + i) % 64);
+            
                 if (display_in[index])
-                        collision_next = 1;
+                        collide = 1;
                          
                 next_display[index] = display_in[index] ^ 1'b1;
             end
@@ -40,12 +36,10 @@ module chip8_display(
     end
     
     always @(posedge clk) begin
-        if (reset) begin
-            display_out <= 0;
-            collision <= 0;
+        if (reset) {display_out, collision} <= 0;
         end else if (draw) begin
             display_out <= next_display;
-            collision <= collision_next;
+            collision <= collide;
         end
     end
 endmodule
