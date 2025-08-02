@@ -37,7 +37,7 @@ module chip8_display(
     
     always @(posedge clk) begin
         if (reset) {display_out, collision} <= 0;
-        end else if (draw) begin
+        else if (draw) begin
             display_out <= next_display;
             collision <= collide;
         end
