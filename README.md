@@ -1,6 +1,6 @@
 # CHIP-Monks
 
-CHIP-Monks is a CHIP-8 Emulator written entirely in Verilog on a simulation level.
+CHIP-Monks is a hardware implementation of CHIP-8 written entirely in Verilog on a simulation level.
 
 ## Mentees 
 
