@@ -27,6 +27,7 @@
 | |── week-03.md ← here week 3 (20th to 26th July)
 ~~~
 
+
 ## [WEEK-04](https://github.com/homebrew-ec-foss/CHIP-Monks/blob/main/mentee-keval/todo/week-4.md)
 
 ~~~
@@ -37,3 +38,6 @@
 | |── week-03.md
 | |── week-04.md ← here week 4 (27th July to 2nd August)
 ~~~
+
+Schematic Diagram:
+![logo](https://github.com/homebrew-ec-foss/CHIP-Monks/blob/main/mentee-keval/todo/schematic_01.png)
