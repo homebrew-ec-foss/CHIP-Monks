@@ -31,10 +31,14 @@ initial begin
         memory[70] = 8'hF0; memory[71] = 8'h80; memory[72] = 8'hF0; memory[73] = 8'h80; memory[74] = 8'hF0;
         memory[75] = 8'hF0; memory[76] = 8'h80; memory[77] = 8'hF0; memory[78] = 8'h80; memory[79] = 8'h80;
         
-        // $readmemh("game.mem",memory,512);  
+        $readmemh("game.mem",memory,512);  
+         
+        $display("Memory @ 0x200 = %h", memory[512]);   
+        $display("Memory @ 0x201 = %h", memory[513]);
         // game.mem will be the memory of the game
               
 end
+
 
 always @(posedge clk) begin
     if (read) begin
