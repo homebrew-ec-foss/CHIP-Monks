@@ -1,0 +1,253 @@
+Time resolution is 1 ps
+Memory @ 0x200 = 60
+Memory @ 0x201 = 1c
+Time=0 | PC=200 | State= 0 | Opcode=0000 | I_reg=000 | V0=xx V1=xx VA=xx VB=xx | mem_addr_out=xxx | mem_data_in = xx | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=30000 | PC=200 | State= 1 | Opcode=0000 | I_reg=000 | V0=xx V1=xx VA=xx VB=xx | mem_addr_out=200 | mem_data_in = xx | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=50000 | PC=200 | State= 2 | Opcode=0000 | I_reg=000 | V0=xx V1=xx VA=xx VB=xx | mem_addr_out=200 | mem_data_in = xx | mem_data_out = 60 | mem_read = 0 | mem_write = 0
+Time=70000 | PC=200 | State= 3 | Opcode=0000 | I_reg=000 | V0=xx V1=xx VA=xx VB=xx | mem_addr_out=201 | mem_data_in = xx | mem_data_out = 60 | mem_read = 1 | mem_write = 0
+Time=90000 | PC=200 | State= 4 | Opcode=0000 | I_reg=000 | V0=xx V1=xx VA=xx VB=xx | mem_addr_out=201 | mem_data_in = xx | mem_data_out = 1c | mem_read = 0 | mem_write = 0
+Time=110000 | PC=200 | State= 6 | Opcode=0000 | I_reg=000 | V0=xx V1=xx VA=xx VB=xx | mem_addr_out=201 | mem_data_in = xx | mem_data_out = 1c | mem_read = 0 | mem_write = 0
+Time=130000 | PC=200 | State= 5 | Opcode=601c | I_reg=000 | V0=xx V1=xx VA=xx VB=xx | mem_addr_out=201 | mem_data_in = xx | mem_data_out = 1c | mem_read = 0 | mem_write = 0
+Time=150000 | PC=202 | State= 0 | Opcode=601c | I_reg=000 | V0=1c V1=xx VA=xx VB=xx | mem_addr_out=201 | mem_data_in = xx | mem_data_out = 1c | mem_read = 0 | mem_write = 0
+Time=170000 | PC=202 | State= 1 | Opcode=601c | I_reg=000 | V0=1c V1=xx VA=xx VB=xx | mem_addr_out=202 | mem_data_in = xx | mem_data_out = 1c | mem_read = 1 | mem_write = 0
+Time=190000 | PC=202 | State= 2 | Opcode=601c | I_reg=000 | V0=1c V1=xx VA=xx VB=xx | mem_addr_out=202 | mem_data_in = xx | mem_data_out = 61 | mem_read = 0 | mem_write = 0
+Time=210000 | PC=202 | State= 3 | Opcode=601c | I_reg=000 | V0=1c V1=xx VA=xx VB=xx | mem_addr_out=203 | mem_data_in = xx | mem_data_out = 61 | mem_read = 1 | mem_write = 0
+Time=230000 | PC=202 | State= 4 | Opcode=601c | I_reg=000 | V0=1c V1=xx VA=xx VB=xx | mem_addr_out=203 | mem_data_in = xx | mem_data_out = 0a | mem_read = 0 | mem_write = 0
+Time=250000 | PC=202 | State= 6 | Opcode=601c | I_reg=000 | V0=1c V1=xx VA=xx VB=xx | mem_addr_out=203 | mem_data_in = xx | mem_data_out = 0a | mem_read = 0 | mem_write = 0
+Time=270000 | PC=202 | State= 5 | Opcode=610a | I_reg=000 | V0=1c V1=xx VA=xx VB=xx | mem_addr_out=203 | mem_data_in = xx | mem_data_out = 0a | mem_read = 0 | mem_write = 0
+Time=290000 | PC=204 | State= 0 | Opcode=610a | I_reg=000 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=203 | mem_data_in = xx | mem_data_out = 0a | mem_read = 0 | mem_write = 0
+Time=310000 | PC=204 | State= 1 | Opcode=610a | I_reg=000 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=204 | mem_data_in = xx | mem_data_out = 0a | mem_read = 1 | mem_write = 0
+Time=330000 | PC=204 | State= 2 | Opcode=610a | I_reg=000 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=204 | mem_data_in = xx | mem_data_out = a3 | mem_read = 0 | mem_write = 0
+Time=350000 | PC=204 | State= 3 | Opcode=610a | I_reg=000 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=205 | mem_data_in = xx | mem_data_out = a3 | mem_read = 1 | mem_write = 0
+Time=370000 | PC=204 | State= 4 | Opcode=610a | I_reg=000 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=205 | mem_data_in = xx | mem_data_out = 00 | mem_read = 0 | mem_write = 0
+Time=390000 | PC=204 | State= 6 | Opcode=610a | I_reg=000 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=205 | mem_data_in = xx | mem_data_out = 00 | mem_read = 0 | mem_write = 0
+Time=410000 | PC=204 | State= 5 | Opcode=a300 | I_reg=000 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=205 | mem_data_in = xx | mem_data_out = 00 | mem_read = 0 | mem_write = 0
+Time=430000 | PC=206 | State= 0 | Opcode=a300 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=205 | mem_data_in = xx | mem_data_out = 00 | mem_read = 0 | mem_write = 0
+Time=450000 | PC=206 | State= 1 | Opcode=a300 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=206 | mem_data_in = xx | mem_data_out = 00 | mem_read = 1 | mem_write = 0
+Time=470000 | PC=206 | State= 2 | Opcode=a300 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=206 | mem_data_in = xx | mem_data_out = d0 | mem_read = 0 | mem_write = 0
+Time=490000 | PC=206 | State= 3 | Opcode=a300 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=207 | mem_data_in = xx | mem_data_out = d0 | mem_read = 1 | mem_write = 0
+Time=510000 | PC=206 | State= 4 | Opcode=a300 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=207 | mem_data_in = xx | mem_data_out = 15 | mem_read = 0 | mem_write = 0
+Time=530000 | PC=206 | State= 6 | Opcode=a300 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=207 | mem_data_in = xx | mem_data_out = 15 | mem_read = 0 | mem_write = 0
+Time=550000 | PC=206 | State= 5 | Opcode=d015 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=207 | mem_data_in = xx | mem_data_out = 15 | mem_read = 0 | mem_write = 0
+Time=570000 | PC=206 | State=10 | Opcode=d015 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=300 | mem_data_in = xx | mem_data_out = 15 | mem_read = 1 | mem_write = 0
+Time=590000 | PC=206 | State=11 | Opcode=d015 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=300 | mem_data_in = xx | mem_data_out = f8 | mem_read = 0 | mem_write = 0
+Time=610000 | PC=206 | State=12 | Opcode=d015 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=301 | mem_data_in = xx | mem_data_out = f8 | mem_read = 1 | mem_write = 0
+Time=630000 | PC=206 | State=10 | Opcode=d015 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=301 | mem_data_in = xx | mem_data_out = 88 | mem_read = 0 | mem_write = 0
+Time=650000 | PC=206 | State=11 | Opcode=d015 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=301 | mem_data_in = xx | mem_data_out = 88 | mem_read = 0 | mem_write = 0
+Time=670000 | PC=206 | State=12 | Opcode=d015 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=302 | mem_data_in = xx | mem_data_out = 88 | mem_read = 1 | mem_write = 0
+Time=690000 | PC=206 | State=10 | Opcode=d015 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=302 | mem_data_in = xx | mem_data_out = 88 | mem_read = 0 | mem_write = 0
+Time=710000 | PC=206 | State=11 | Opcode=d015 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=302 | mem_data_in = xx | mem_data_out = 88 | mem_read = 0 | mem_write = 0
+Time=730000 | PC=206 | State=12 | Opcode=d015 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=303 | mem_data_in = xx | mem_data_out = 88 | mem_read = 1 | mem_write = 0
+Time=750000 | PC=206 | State=10 | Opcode=d015 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=303 | mem_data_in = xx | mem_data_out = 88 | mem_read = 0 | mem_write = 0
+Time=770000 | PC=206 | State=11 | Opcode=d015 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=303 | mem_data_in = xx | mem_data_out = 88 | mem_read = 0 | mem_write = 0
+Time=790000 | PC=206 | State=12 | Opcode=d015 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=304 | mem_data_in = xx | mem_data_out = 88 | mem_read = 1 | mem_write = 0
+Time=810000 | PC=206 | State=10 | Opcode=d015 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=304 | mem_data_in = xx | mem_data_out = f8 | mem_read = 0 | mem_write = 0
+Time=830000 | PC=206 | State=11 | Opcode=d015 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=304 | mem_data_in = xx | mem_data_out = f8 | mem_read = 0 | mem_write = 0
+Time=850000 | PC=208 | State= 0 | Opcode=d015 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=304 | mem_data_in = xx | mem_data_out = f8 | mem_read = 0 | mem_write = 0
+Time=870000 | PC=208 | State= 1 | Opcode=d015 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=208 | mem_data_in = xx | mem_data_out = f8 | mem_read = 1 | mem_write = 0
+Time=890000 | PC=208 | State= 2 | Opcode=d015 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=208 | mem_data_in = xx | mem_data_out = 00 | mem_read = 0 | mem_write = 0
+Time=910000 | PC=208 | State= 3 | Opcode=d015 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=209 | mem_data_in = xx | mem_data_out = 00 | mem_read = 1 | mem_write = 0
+Time=930000 | PC=208 | State= 4 | Opcode=d015 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=209 | mem_data_in = xx | mem_data_out = e0 | mem_read = 0 | mem_write = 0
+Time=950000 | PC=208 | State= 6 | Opcode=d015 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=209 | mem_data_in = xx | mem_data_out = e0 | mem_read = 0 | mem_write = 0
+Time=970000 | PC=208 | State= 5 | Opcode=00e0 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=209 | mem_data_in = xx | mem_data_out = e0 | mem_read = 0 | mem_write = 0
+Time=990000 | PC=20a | State= 0 | Opcode=00e0 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=209 | mem_data_in = xx | mem_data_out = e0 | mem_read = 0 | mem_write = 0
+Time=1010000 | PC=20a | State= 1 | Opcode=00e0 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=20a | mem_data_in = xx | mem_data_out = e0 | mem_read = 1 | mem_write = 0
+Time=1030000 | PC=20a | State= 2 | Opcode=00e0 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=20a | mem_data_in = xx | mem_data_out = a3 | mem_read = 0 | mem_write = 0
+Time=1050000 | PC=20a | State= 3 | Opcode=00e0 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=20b | mem_data_in = xx | mem_data_out = a3 | mem_read = 1 | mem_write = 0
+Time=1070000 | PC=20a | State= 4 | Opcode=00e0 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=20b | mem_data_in = xx | mem_data_out = 05 | mem_read = 0 | mem_write = 0
+Time=1090000 | PC=20a | State= 6 | Opcode=00e0 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=20b | mem_data_in = xx | mem_data_out = 05 | mem_read = 0 | mem_write = 0
+Time=1110000 | PC=20a | State= 5 | Opcode=a305 | I_reg=300 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=20b | mem_data_in = xx | mem_data_out = 05 | mem_read = 0 | mem_write = 0
+Time=1130000 | PC=20c | State= 0 | Opcode=a305 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=20b | mem_data_in = xx | mem_data_out = 05 | mem_read = 0 | mem_write = 0
+Time=1150000 | PC=20c | State= 1 | Opcode=a305 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=20c | mem_data_in = xx | mem_data_out = 05 | mem_read = 1 | mem_write = 0
+Time=1170000 | PC=20c | State= 2 | Opcode=a305 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=20c | mem_data_in = xx | mem_data_out = d0 | mem_read = 0 | mem_write = 0
+Time=1190000 | PC=20c | State= 3 | Opcode=a305 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=20d | mem_data_in = xx | mem_data_out = d0 | mem_read = 1 | mem_write = 0
+Time=1210000 | PC=20c | State= 4 | Opcode=a305 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=20d | mem_data_in = xx | mem_data_out = 15 | mem_read = 0 | mem_write = 0
+Time=1230000 | PC=20c | State= 6 | Opcode=a305 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=20d | mem_data_in = xx | mem_data_out = 15 | mem_read = 0 | mem_write = 0
+Time=1250000 | PC=20c | State= 5 | Opcode=d015 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=20d | mem_data_in = xx | mem_data_out = 15 | mem_read = 0 | mem_write = 0
+Time=1270000 | PC=20c | State=10 | Opcode=d015 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=305 | mem_data_in = xx | mem_data_out = 15 | mem_read = 1 | mem_write = 0
+Time=1290000 | PC=20c | State=11 | Opcode=d015 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=305 | mem_data_in = xx | mem_data_out = 00 | mem_read = 0 | mem_write = 0
+Time=1310000 | PC=20c | State=12 | Opcode=d015 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=306 | mem_data_in = xx | mem_data_out = 00 | mem_read = 1 | mem_write = 0
+Time=1330000 | PC=20c | State=10 | Opcode=d015 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=306 | mem_data_in = xx | mem_data_out = 70 | mem_read = 0 | mem_write = 0
+Time=1350000 | PC=20c | State=11 | Opcode=d015 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=306 | mem_data_in = xx | mem_data_out = 70 | mem_read = 0 | mem_write = 0
+Time=1370000 | PC=20c | State=12 | Opcode=d015 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=307 | mem_data_in = xx | mem_data_out = 70 | mem_read = 1 | mem_write = 0
+Time=1390000 | PC=20c | State=10 | Opcode=d015 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=307 | mem_data_in = xx | mem_data_out = 50 | mem_read = 0 | mem_write = 0
+Time=1410000 | PC=20c | State=11 | Opcode=d015 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=307 | mem_data_in = xx | mem_data_out = 50 | mem_read = 0 | mem_write = 0
+Time=1430000 | PC=20c | State=12 | Opcode=d015 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=308 | mem_data_in = xx | mem_data_out = 50 | mem_read = 1 | mem_write = 0
+Time=1450000 | PC=20c | State=10 | Opcode=d015 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=308 | mem_data_in = xx | mem_data_out = 70 | mem_read = 0 | mem_write = 0
+Time=1470000 | PC=20c | State=11 | Opcode=d015 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=308 | mem_data_in = xx | mem_data_out = 70 | mem_read = 0 | mem_write = 0
+Time=1490000 | PC=20c | State=12 | Opcode=d015 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=309 | mem_data_in = xx | mem_data_out = 70 | mem_read = 1 | mem_write = 0
+Time=1510000 | PC=20c | State=10 | Opcode=d015 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=309 | mem_data_in = xx | mem_data_out = 00 | mem_read = 0 | mem_write = 0
+Time=1530000 | PC=20c | State=11 | Opcode=d015 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=309 | mem_data_in = xx | mem_data_out = 00 | mem_read = 0 | mem_write = 0
+Time=1550000 | PC=20e | State= 0 | Opcode=d015 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=309 | mem_data_in = xx | mem_data_out = 00 | mem_read = 0 | mem_write = 0
+Time=1570000 | PC=20e | State= 1 | Opcode=d015 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=20e | mem_data_in = xx | mem_data_out = 00 | mem_read = 1 | mem_write = 0
+Time=1590000 | PC=20e | State= 2 | Opcode=d015 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=20e | mem_data_in = xx | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=1610000 | PC=20e | State= 3 | Opcode=d015 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=20f | mem_data_in = xx | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=1630000 | PC=20e | State= 4 | Opcode=d015 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=20f | mem_data_in = xx | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=1650000 | PC=20e | State= 6 | Opcode=d015 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=20f | mem_data_in = xx | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=1670000 | PC=20e | State= 5 | Opcode=xxxx | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=20f | mem_data_in = xx | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=1690000 | PC=210 | State= 0 | Opcode=xxxx | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=20f | mem_data_in = xx | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=1710000 | PC=210 | State= 1 | Opcode=xxxx | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=210 | mem_data_in = xx | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=1730000 | PC=210 | State= 2 | Opcode=xxxx | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=210 | mem_data_in = xx | mem_data_out = 6a | mem_read = 0 | mem_write = 0
+Time=1750000 | PC=210 | State= 3 | Opcode=xxxx | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=211 | mem_data_in = xx | mem_data_out = 6a | mem_read = 1 | mem_write = 0
+Time=1770000 | PC=210 | State= 4 | Opcode=xxxx | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=211 | mem_data_in = xx | mem_data_out = 05 | mem_read = 0 | mem_write = 0
+Time=1790000 | PC=210 | State= 6 | Opcode=xxxx | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=211 | mem_data_in = xx | mem_data_out = 05 | mem_read = 0 | mem_write = 0
+Time=1810000 | PC=210 | State= 5 | Opcode=6a05 | I_reg=305 | V0=1c V1=0a VA=xx VB=xx | mem_addr_out=211 | mem_data_in = xx | mem_data_out = 05 | mem_read = 0 | mem_write = 0
+Time=1830000 | PC=212 | State= 0 | Opcode=6a05 | I_reg=305 | V0=1c V1=0a VA=05 VB=xx | mem_addr_out=211 | mem_data_in = xx | mem_data_out = 05 | mem_read = 0 | mem_write = 0
+Time=1850000 | PC=212 | State= 1 | Opcode=6a05 | I_reg=305 | V0=1c V1=0a VA=05 VB=xx | mem_addr_out=212 | mem_data_in = xx | mem_data_out = 05 | mem_read = 1 | mem_write = 0
+Time=1870000 | PC=212 | State= 2 | Opcode=6a05 | I_reg=305 | V0=1c V1=0a VA=05 VB=xx | mem_addr_out=212 | mem_data_in = xx | mem_data_out = 6b | mem_read = 0 | mem_write = 0
+Time=1890000 | PC=212 | State= 3 | Opcode=6a05 | I_reg=305 | V0=1c V1=0a VA=05 VB=xx | mem_addr_out=213 | mem_data_in = xx | mem_data_out = 6b | mem_read = 1 | mem_write = 0
+Time=1910000 | PC=212 | State= 4 | Opcode=6a05 | I_reg=305 | V0=1c V1=0a VA=05 VB=xx | mem_addr_out=213 | mem_data_in = xx | mem_data_out = 07 | mem_read = 0 | mem_write = 0
+Time=1930000 | PC=212 | State= 6 | Opcode=6a05 | I_reg=305 | V0=1c V1=0a VA=05 VB=xx | mem_addr_out=213 | mem_data_in = xx | mem_data_out = 07 | mem_read = 0 | mem_write = 0
+Time=1950000 | PC=212 | State= 5 | Opcode=6b07 | I_reg=305 | V0=1c V1=0a VA=05 VB=xx | mem_addr_out=213 | mem_data_in = xx | mem_data_out = 07 | mem_read = 0 | mem_write = 0
+Time=1970000 | PC=214 | State= 0 | Opcode=6b07 | I_reg=305 | V0=1c V1=0a VA=05 VB=07 | mem_addr_out=213 | mem_data_in = xx | mem_data_out = 07 | mem_read = 0 | mem_write = 0
+Time=1990000 | PC=214 | State= 1 | Opcode=6b07 | I_reg=305 | V0=1c V1=0a VA=05 VB=07 | mem_addr_out=214 | mem_data_in = xx | mem_data_out = 07 | mem_read = 1 | mem_write = 0
+Time=2010000 | PC=214 | State= 2 | Opcode=6b07 | I_reg=305 | V0=1c V1=0a VA=05 VB=07 | mem_addr_out=214 | mem_data_in = xx | mem_data_out = 8a | mem_read = 0 | mem_write = 0
+Time=2030000 | PC=214 | State= 3 | Opcode=6b07 | I_reg=305 | V0=1c V1=0a VA=05 VB=07 | mem_addr_out=215 | mem_data_in = xx | mem_data_out = 8a | mem_read = 1 | mem_write = 0
+Time=2050000 | PC=214 | State= 4 | Opcode=6b07 | I_reg=305 | V0=1c V1=0a VA=05 VB=07 | mem_addr_out=215 | mem_data_in = xx | mem_data_out = b4 | mem_read = 0 | mem_write = 0
+Time=2070000 | PC=214 | State= 6 | Opcode=6b07 | I_reg=305 | V0=1c V1=0a VA=05 VB=07 | mem_addr_out=215 | mem_data_in = xx | mem_data_out = b4 | mem_read = 0 | mem_write = 0
+Time=2090000 | PC=214 | State= 5 | Opcode=8ab4 | I_reg=305 | V0=1c V1=0a VA=05 VB=07 | mem_addr_out=215 | mem_data_in = xx | mem_data_out = b4 | mem_read = 0 | mem_write = 0
+Time=2110000 | PC=216 | State= 0 | Opcode=8ab4 | I_reg=305 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=215 | mem_data_in = xx | mem_data_out = b4 | mem_read = 0 | mem_write = 0
+Time=2130000 | PC=216 | State= 1 | Opcode=8ab4 | I_reg=305 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=216 | mem_data_in = xx | mem_data_out = b4 | mem_read = 1 | mem_write = 0
+Time=2150000 | PC=216 | State= 2 | Opcode=8ab4 | I_reg=305 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=216 | mem_data_in = xx | mem_data_out = 12 | mem_read = 0 | mem_write = 0
+Time=2170000 | PC=216 | State= 3 | Opcode=8ab4 | I_reg=305 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=217 | mem_data_in = xx | mem_data_out = 12 | mem_read = 1 | mem_write = 0
+Time=2190000 | PC=216 | State= 4 | Opcode=8ab4 | I_reg=305 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=217 | mem_data_in = xx | mem_data_out = 16 | mem_read = 0 | mem_write = 0
+Time=2210000 | PC=216 | State= 6 | Opcode=8ab4 | I_reg=305 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=217 | mem_data_in = xx | mem_data_out = 16 | mem_read = 0 | mem_write = 0
+Time=2230000 | PC=216 | State= 5 | Opcode=1216 | I_reg=305 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=217 | mem_data_in = xx | mem_data_out = 16 | mem_read = 0 | mem_write = 0
+Time=2250000 | PC=216 | State= 0 | Opcode=1216 | I_reg=305 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=217 | mem_data_in = xx | mem_data_out = 16 | mem_read = 0 | mem_write = 0
+Time=2270000 | PC=216 | State= 1 | Opcode=1216 | I_reg=305 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=216 | mem_data_in = xx | mem_data_out = 16 | mem_read = 1 | mem_write = 0
+Time=2290000 | PC=216 | State= 2 | Opcode=1216 | I_reg=305 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=216 | mem_data_in = xx | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=2310000 | PC=216 | State= 3 | Opcode=1216 | I_reg=305 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=217 | mem_data_in = xx | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=2330000 | PC=216 | State= 4 | Opcode=1216 | I_reg=305 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=217 | mem_data_in = xx | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=2350000 | PC=216 | State= 6 | Opcode=1216 | I_reg=305 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=217 | mem_data_in = xx | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=2370000 | PC=216 | State= 5 | Opcode=xxxx | I_reg=305 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=217 | mem_data_in = xx | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=2390000 | PC=218 | State= 0 | Opcode=xxxx | I_reg=305 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=217 | mem_data_in = xx | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=2410000 | PC=218 | State= 1 | Opcode=xxxx | I_reg=305 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=218 | mem_data_in = xx | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=2430000 | PC=218 | State= 2 | Opcode=xxxx | I_reg=305 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=218 | mem_data_in = xx | mem_data_out = a4 | mem_read = 0 | mem_write = 0
+Time=2450000 | PC=218 | State= 3 | Opcode=xxxx | I_reg=305 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=219 | mem_data_in = xx | mem_data_out = a4 | mem_read = 1 | mem_write = 0
+Time=2470000 | PC=218 | State= 4 | Opcode=xxxx | I_reg=305 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=219 | mem_data_in = xx | mem_data_out = 00 | mem_read = 0 | mem_write = 0
+Time=2490000 | PC=218 | State= 6 | Opcode=xxxx | I_reg=305 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=219 | mem_data_in = xx | mem_data_out = 00 | mem_read = 0 | mem_write = 0
+Time=2510000 | PC=218 | State= 5 | Opcode=a400 | I_reg=305 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=219 | mem_data_in = xx | mem_data_out = 00 | mem_read = 0 | mem_write = 0
+Time=2530000 | PC=21a | State= 0 | Opcode=a400 | I_reg=400 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=219 | mem_data_in = xx | mem_data_out = 00 | mem_read = 0 | mem_write = 0
+Time=2550000 | PC=21a | State= 1 | Opcode=a400 | I_reg=400 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=21a | mem_data_in = xx | mem_data_out = 00 | mem_read = 1 | mem_write = 0
+Time=2570000 | PC=21a | State= 2 | Opcode=a400 | I_reg=400 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=21a | mem_data_in = xx | mem_data_out = 60 | mem_read = 0 | mem_write = 0
+Time=2590000 | PC=21a | State= 3 | Opcode=a400 | I_reg=400 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=21b | mem_data_in = xx | mem_data_out = 60 | mem_read = 1 | mem_write = 0
+Time=2610000 | PC=21a | State= 4 | Opcode=a400 | I_reg=400 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=21b | mem_data_in = xx | mem_data_out = aa | mem_read = 0 | mem_write = 0
+Time=2630000 | PC=21a | State= 6 | Opcode=a400 | I_reg=400 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=21b | mem_data_in = xx | mem_data_out = aa | mem_read = 0 | mem_write = 0
+Time=2650000 | PC=21a | State= 5 | Opcode=60aa | I_reg=400 | V0=1c V1=0a VA=0c VB=07 | mem_addr_out=21b | mem_data_in = xx | mem_data_out = aa | mem_read = 0 | mem_write = 0
+Time=2670000 | PC=21c | State= 0 | Opcode=60aa | I_reg=400 | V0=aa V1=0a VA=0c VB=07 | mem_addr_out=21b | mem_data_in = xx | mem_data_out = aa | mem_read = 0 | mem_write = 0
+Time=2690000 | PC=21c | State= 1 | Opcode=60aa | I_reg=400 | V0=aa V1=0a VA=0c VB=07 | mem_addr_out=21c | mem_data_in = xx | mem_data_out = aa | mem_read = 1 | mem_write = 0
+Time=2710000 | PC=21c | State= 2 | Opcode=60aa | I_reg=400 | V0=aa V1=0a VA=0c VB=07 | mem_addr_out=21c | mem_data_in = xx | mem_data_out = 61 | mem_read = 0 | mem_write = 0
+Time=2730000 | PC=21c | State= 3 | Opcode=60aa | I_reg=400 | V0=aa V1=0a VA=0c VB=07 | mem_addr_out=21d | mem_data_in = xx | mem_data_out = 61 | mem_read = 1 | mem_write = 0
+Time=2750000 | PC=21c | State= 4 | Opcode=60aa | I_reg=400 | V0=aa V1=0a VA=0c VB=07 | mem_addr_out=21d | mem_data_in = xx | mem_data_out = bb | mem_read = 0 | mem_write = 0
+Time=2770000 | PC=21c | State= 6 | Opcode=60aa | I_reg=400 | V0=aa V1=0a VA=0c VB=07 | mem_addr_out=21d | mem_data_in = xx | mem_data_out = bb | mem_read = 0 | mem_write = 0
+Time=2790000 | PC=21c | State= 5 | Opcode=61bb | I_reg=400 | V0=aa V1=0a VA=0c VB=07 | mem_addr_out=21d | mem_data_in = xx | mem_data_out = bb | mem_read = 0 | mem_write = 0
+Time=2810000 | PC=21e | State= 0 | Opcode=61bb | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=21d | mem_data_in = xx | mem_data_out = bb | mem_read = 0 | mem_write = 0
+Time=2830000 | PC=21e | State= 1 | Opcode=61bb | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=21e | mem_data_in = xx | mem_data_out = bb | mem_read = 1 | mem_write = 0
+Time=2850000 | PC=21e | State= 2 | Opcode=61bb | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=21e | mem_data_in = xx | mem_data_out = f1 | mem_read = 0 | mem_write = 0
+Time=2870000 | PC=21e | State= 3 | Opcode=61bb | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=21f | mem_data_in = xx | mem_data_out = f1 | mem_read = 1 | mem_write = 0
+Time=2890000 | PC=21e | State= 4 | Opcode=61bb | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=21f | mem_data_in = xx | mem_data_out = 55 | mem_read = 0 | mem_write = 0
+Time=2910000 | PC=21e | State= 6 | Opcode=61bb | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=21f | mem_data_in = xx | mem_data_out = 55 | mem_read = 0 | mem_write = 0
+Time=2930000 | PC=21e | State= 5 | Opcode=f155 | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=21f | mem_data_in = xx | mem_data_out = 55 | mem_read = 0 | mem_write = 0
+Time=2950000 | PC=21e | State= 7 | Opcode=f155 | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=21f | mem_data_in = xx | mem_data_out = 55 | mem_read = 0 | mem_write = 0
+Time=2970000 | PC=21e | State= 7 | Opcode=f155 | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=400 | mem_data_in = aa | mem_data_out = 55 | mem_read = 0 | mem_write = 1
+Time=2990000 | PC=220 | State= 0 | Opcode=f155 | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=401 | mem_data_in = bb | mem_data_out = 55 | mem_read = 0 | mem_write = 1
+Time=3010000 | PC=220 | State= 1 | Opcode=f155 | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=220 | mem_data_in = bb | mem_data_out = 55 | mem_read = 1 | mem_write = 0
+Time=3030000 | PC=220 | State= 2 | Opcode=f155 | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=220 | mem_data_in = bb | mem_data_out = 12 | mem_read = 0 | mem_write = 0
+Time=3050000 | PC=220 | State= 3 | Opcode=f155 | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=221 | mem_data_in = bb | mem_data_out = 12 | mem_read = 1 | mem_write = 0
+Time=3070000 | PC=220 | State= 4 | Opcode=f155 | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=221 | mem_data_in = bb | mem_data_out = 00 | mem_read = 0 | mem_write = 0
+Time=3090000 | PC=220 | State= 6 | Opcode=f155 | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=221 | mem_data_in = bb | mem_data_out = 00 | mem_read = 0 | mem_write = 0
+Time=3110000 | PC=220 | State= 5 | Opcode=1200 | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=221 | mem_data_in = bb | mem_data_out = 00 | mem_read = 0 | mem_write = 0
+Time=3130000 | PC=200 | State= 0 | Opcode=1200 | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=221 | mem_data_in = bb | mem_data_out = 00 | mem_read = 0 | mem_write = 0
+Time=3150000 | PC=200 | State= 1 | Opcode=1200 | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=200 | mem_data_in = bb | mem_data_out = 00 | mem_read = 1 | mem_write = 0
+Time=3170000 | PC=200 | State= 2 | Opcode=1200 | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=200 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3190000 | PC=200 | State= 3 | Opcode=1200 | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=201 | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=3210000 | PC=200 | State= 4 | Opcode=1200 | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=201 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3230000 | PC=200 | State= 6 | Opcode=1200 | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=201 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3250000 | PC=200 | State= 5 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=201 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3270000 | PC=202 | State= 0 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=201 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3290000 | PC=202 | State= 1 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=202 | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=3310000 | PC=202 | State= 2 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=202 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3330000 | PC=202 | State= 3 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=203 | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=3350000 | PC=202 | State= 4 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=203 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3370000 | PC=202 | State= 6 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=203 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3390000 | PC=202 | State= 5 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=203 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3410000 | PC=204 | State= 0 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=203 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3430000 | PC=204 | State= 1 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=204 | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=3450000 | PC=204 | State= 2 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=204 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3470000 | PC=204 | State= 3 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=205 | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=3490000 | PC=204 | State= 4 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=205 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3510000 | PC=204 | State= 6 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=205 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3530000 | PC=204 | State= 5 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=205 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3550000 | PC=206 | State= 0 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=205 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3570000 | PC=206 | State= 1 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=206 | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=3590000 | PC=206 | State= 2 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=206 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3610000 | PC=206 | State= 3 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=207 | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=3630000 | PC=206 | State= 4 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=207 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3650000 | PC=206 | State= 6 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=207 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3670000 | PC=206 | State= 5 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=207 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3690000 | PC=208 | State= 0 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=207 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3710000 | PC=208 | State= 1 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=208 | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=3730000 | PC=208 | State= 2 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=208 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3750000 | PC=208 | State= 3 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=209 | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=3770000 | PC=208 | State= 4 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=209 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3790000 | PC=208 | State= 6 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=209 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3810000 | PC=208 | State= 5 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=209 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3830000 | PC=20a | State= 0 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=209 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3850000 | PC=20a | State= 1 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=20a | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=3870000 | PC=20a | State= 2 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=20a | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3890000 | PC=20a | State= 3 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=20b | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=3910000 | PC=20a | State= 4 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=20b | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3930000 | PC=20a | State= 6 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=20b | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3950000 | PC=20a | State= 5 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=20b | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3970000 | PC=20c | State= 0 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=20b | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=3990000 | PC=20c | State= 1 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=20c | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=4010000 | PC=20c | State= 2 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=20c | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4030000 | PC=20c | State= 3 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=20d | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=4050000 | PC=20c | State= 4 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=20d | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4070000 | PC=20c | State= 6 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=20d | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4090000 | PC=20c | State= 5 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=20d | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4110000 | PC=20e | State= 0 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=20d | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4130000 | PC=20e | State= 1 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=20e | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=4150000 | PC=20e | State= 2 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=20e | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4170000 | PC=20e | State= 3 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=20f | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=4190000 | PC=20e | State= 4 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=20f | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4210000 | PC=20e | State= 6 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=20f | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4230000 | PC=20e | State= 5 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=20f | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4250000 | PC=210 | State= 0 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=20f | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4270000 | PC=210 | State= 1 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=210 | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=4290000 | PC=210 | State= 2 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=210 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4310000 | PC=210 | State= 3 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=211 | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=4330000 | PC=210 | State= 4 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=211 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4350000 | PC=210 | State= 6 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=211 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4370000 | PC=210 | State= 5 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=211 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4390000 | PC=212 | State= 0 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=211 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4410000 | PC=212 | State= 1 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=212 | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=4430000 | PC=212 | State= 2 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=212 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4450000 | PC=212 | State= 3 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=213 | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=4470000 | PC=212 | State= 4 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=213 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4490000 | PC=212 | State= 6 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=213 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4510000 | PC=212 | State= 5 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=213 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4530000 | PC=214 | State= 0 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=213 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4550000 | PC=214 | State= 1 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=214 | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=4570000 | PC=214 | State= 2 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=214 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4590000 | PC=214 | State= 3 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=215 | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=4610000 | PC=214 | State= 4 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=215 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4630000 | PC=214 | State= 6 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=215 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4650000 | PC=214 | State= 5 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=215 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4670000 | PC=216 | State= 0 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=215 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4690000 | PC=216 | State= 1 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=216 | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=4710000 | PC=216 | State= 2 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=216 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4730000 | PC=216 | State= 3 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=217 | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=4750000 | PC=216 | State= 4 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=217 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4770000 | PC=216 | State= 6 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=217 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4790000 | PC=216 | State= 5 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=217 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4810000 | PC=218 | State= 0 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=217 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4830000 | PC=218 | State= 1 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=218 | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=4850000 | PC=218 | State= 2 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=218 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4870000 | PC=218 | State= 3 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=219 | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=4890000 | PC=218 | State= 4 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=219 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4910000 | PC=218 | State= 6 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=219 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4930000 | PC=218 | State= 5 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=219 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4950000 | PC=21a | State= 0 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=219 | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
+Time=4970000 | PC=21a | State= 1 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=21a | mem_data_in = bb | mem_data_out = xx | mem_read = 1 | mem_write = 0
+Time=4990000 | PC=21a | State= 2 | Opcode=xxxx | I_reg=400 | V0=aa V1=bb VA=0c VB=07 | mem_addr_out=21a | mem_data_in = bb | mem_data_out = xx | mem_read = 0 | mem_write = 0
